@@ -11,7 +11,43 @@ namespace QuickBuy.Repositorio.Config
     {
         public void Configure(EntityTypeBuilder<Pedido> builder)
         {
-            throw new NotImplementedException();
+            builder.HasKey(pdd=>pdd.Id);
+            builder
+                .Property(pdd => pdd.DataPedido)
+                .IsRequired();
+            /*builder
+                .Property(pdd => pdd.UsuarioId)
+                .IsRequired()
+                .HasMaxLength(10);*/
+            builder
+                .Property(pdd => pdd.DataPrevisaoEntrega)
+                .IsRequired();
+            builder
+                .Property(pdd => pdd.CEP)
+                .IsRequired()
+                .HasMaxLength(10);
+            builder
+                .Property(pdd => pdd.Estado)
+                .IsRequired()
+                .HasMaxLength(100);
+            builder
+                .Property(pdd => pdd.Cidade)
+                .IsRequired()
+                .HasMaxLength(80);
+            builder
+                .Property(pdd => pdd.EnderecoCompleto)
+                .IsRequired()
+                .HasMaxLength(100);
+            /*builder
+                .Property(pdd => pdd.NumeroEndereco)
+                .IsRequired()
+                .HasMaxLength(10);
+            builder
+                .Property(pdd => pdd.FormaPagamentoId)
+                .IsRequired()
+                .HasMaxLength(1);*/
+            //builder.Property(pdd => pdd.FormaPagamento);
+            //builder.Property(pdd => pdd.ItensPedido);
         }
     }
 }
