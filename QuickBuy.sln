@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickBuy.Dominio", "QuickBuy.Dominio\QuickBuy.Dominio.csproj", "{883DE517-780D-45AE-A524-CC8567FB25C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickBuy.Dominio", "QuickBuy.Dominio\QuickBuy.Dominio.csproj", "{883DE517-780D-45AE-A524-CC8567FB25C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickBuy.Repositorio", "QuickBuy.Repositorio\QuickBuy.Repositorio.csproj", "{8F88A74E-93C4-436F-8E48-23C838893045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickBuy.Web", "QuickBuy.Web\QuickBuy.Web.csproj", "{C2147A24-BAC6-47B3-B0A1-379153E2FE6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{883DE517-780D-45AE-A524-CC8567FB25C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{883DE517-780D-45AE-A524-CC8567FB25C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{883DE517-780D-45AE-A524-CC8567FB25C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F88A74E-93C4-436F-8E48-23C838893045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F88A74E-93C4-436F-8E48-23C838893045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F88A74E-93C4-436F-8E48-23C838893045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F88A74E-93C4-436F-8E48-23C838893045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2147A24-BAC6-47B3-B0A1-379153E2FE6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2147A24-BAC6-47B3-B0A1-379153E2FE6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2147A24-BAC6-47B3-B0A1-379153E2FE6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2147A24-BAC6-47B3-B0A1-379153E2FE6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
