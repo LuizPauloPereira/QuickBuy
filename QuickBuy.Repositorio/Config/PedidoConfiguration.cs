@@ -38,6 +38,7 @@ namespace QuickBuy.Repositorio.Config
                 .Property(pdd => pdd.EnderecoCompleto)
                 .IsRequired()
                 .HasMaxLength(100);
+            //builder.HasOne(p => p.Usuario); //Pedido tem apenas 1 Usuario (redundancia de mapeamento)
             /*builder
                 .Property(pdd => pdd.NumeroEndereco)
                 .IsRequired()
