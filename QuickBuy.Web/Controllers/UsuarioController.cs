@@ -44,5 +44,20 @@ namespace QuickBuy.Web.Controllers
                 return BadRequest(ex.ToString());
             }
         }
+
+       /*
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            try
+            {
+                _usuarioRepositorio.Remover(_usuarioRepositorio.ObterPorId(id));
+                return ???????( ????????() );
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.ToString());
+            }
+        */
     }
 }
