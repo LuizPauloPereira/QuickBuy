@@ -1,9 +1,12 @@
 QuickBuy
+Asp.Net Core 2.2 + Angular 6 + MySql
+
+
 Curso Udemy
 
 Projeto criado a partir do curso da Udemy ministrado pelo Leonardo Souza
 
-O projeto visa criar uma aplicação web Fullstack, desenvolvendo uma solução de compra rápida com três projetos e uma base de dados.
+O projeto visa criar uma aplicaÃ§Ã£o web Fullstack, desenvolvendo uma soluÃ§Ã£o de compra rÃ¡pida com trÃªs projetos e uma base de dados.
 
 Projeto WEB (Asp.Net Core 2.2 + Angular 6) 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
